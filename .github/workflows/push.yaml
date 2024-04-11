@@ -36,7 +36,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: maksimsh19/hello-golang
+          images: maksimsh19/final-ci-cd
 
       - name: Build and push Docker Inage
         uses: docker/build-push-action@v5
